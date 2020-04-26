@@ -2,4 +2,5 @@
     <string name="app_name">Просмотр фото</string>
     <string name="go_to">Вперед</string>
     <string name="back">Назад</string>
+    <string name="todo">TODO</string>
 </resources>

@@ -7,24 +7,24 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_back"
         android:layout_width="135dp"
         android:layout_height="65dp"
-        android:text="@string/back"
         android:onClick="back"
+        android:text="@string/back"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintEnd_toStartOf="@+id/button_go"
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.752" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button_go"
         android:layout_width="135dp"
         android:layout_height="65dp"
-        android:text="@string/go_to"
         android:onClick="go_to"
+        android:text="@string/go_to"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.876"
@@ -41,7 +41,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.321"
-        app:srcCompat="@drawable/ic_launcher_foreground" />
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/tv_message"
