@@ -23,7 +23,7 @@
         android:id="@+id/button_go"
         android:layout_width="135dp"
         android:layout_height="65dp"
-        android:onClick="go_to"
+        android:onClick="goStart"
         android:text="@string/go_to"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

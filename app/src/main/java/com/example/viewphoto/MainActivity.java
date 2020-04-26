@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setText("http://myfile.org/" + randomNumberUsingNextInt);
     }
 
-    public void go_to(View view) {
+    public void goStart(View view) {
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(intent);
     }
